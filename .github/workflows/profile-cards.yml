@@ -1,0 +1,88 @@
+name: Atualizar cards do perfil
+
+on:
+  schedule:
+    - cron: "25 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-cards-perfil
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Gerar stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=emanuelfelipehub&bg_color=000000&title_color=00FF41&text_color=C9D1D9&icon_color=00FF41&border_color=0A4D1F&show_icons=true&locale=pt-br'
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=emanuelfelipehub&bg_color=000000&title_color=00FF41&text_color=C9D1D9&icon_color=00FF41&border_color=0A4D1F&layout=compact&langs_count=6&locale=pt-br'
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar agro_mec
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=emanuelfelipehub&bg_color=000000&title_color=00FF41&text_color=C9D1D9&icon_color=00FF41&border_color=0A4D1F&repo=Agro_Mec'
+          path: profile/Agro_Mec.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar frota
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=emanuelfelipehub&bg_color=000000&title_color=00FF41&text_color=C9D1D9&icon_color=00FF41&border_color=0A4D1F&repo=sistema-gestao-frota'
+          path: profile/sistema-gestao-frota.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar empresa_web
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=emanuelfelipehub&bg_color=000000&title_color=00FF41&text_color=C9D1D9&icon_color=00FF41&border_color=0A4D1F&repo=sistema_empresa_web'
+          path: profile/sistema_empresa_web.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar trofeus Matrix
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=emanuelfelipehub&theme=matrix&column=4&no-frame=true&no-bg=true&margin-w=10&margin-h=10'
+          path: profile/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publicar SVGs no repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: atualizar SVGs do perfil"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
