@@ -35,23 +35,23 @@ Desenvolvo projetos de sistemas e estou estudando Cybersecurity.
 
 <p align="center">
   <a href="https://github.com/emanuelfelipehub/Agro_Mec">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelfelipehub&amp;repo=Agro_Mec&amp;bg_color=000000&amp;title_color=00FF41&amp;text_color=C9D1D9&amp;icon_color=00FF41&amp;border_color=0A4D1F" alt="Card do repositório Agro_Mec com nome e descrição obtidos do GitHub" width="49%" />
+    <img src="./profile/Agro_Mec.svg" alt="Card do repositório Agro_Mec com nome e descrição obtidos do GitHub" width="420" />
   </a>
   <a href="https://github.com/emanuelfelipehub/sistema-gestao-frota">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelfelipehub&amp;repo=sistema-gestao-frota&amp;bg_color=000000&amp;title_color=00FF41&amp;text_color=C9D1D9&amp;icon_color=00FF41&amp;border_color=0A4D1F" alt="Card do repositório sistema-gestao-frota com nome e descrição obtidos do GitHub" width="49%" />
+    <img src="./profile/sistema-gestao-frota.svg" alt="Card do repositório sistema-gestao-frota com nome e descrição obtidos do GitHub" width="420" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/emanuelfelipehub/sistema_empresa_web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelfelipehub&amp;repo=sistema_empresa_web&amp;bg_color=000000&amp;title_color=00FF41&amp;text_color=C9D1D9&amp;icon_color=00FF41&amp;border_color=0A4D1F" alt="Card do repositório sistema_empresa_web com nome e descrição obtidos do GitHub" width="49%" />
+    <img src="./profile/sistema_empresa_web.svg" alt="Card do repositório sistema_empresa_web com nome e descrição obtidos do GitHub" width="420" />
   </a>
 </p>
 
 ## `> github_stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emanuelfelipehub&amp;show_icons=true&amp;bg_color=000000&amp;title_color=00FF41&amp;text_color=C9D1D9&amp;icon_color=00FF41&amp;ring_color=00FF41&amp;border_color=0A4D1F&amp;locale=pt-br" alt="Estatísticas públicas de GitHub de emanuelfelipehub" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelfelipehub&amp;layout=compact&amp;langs_count=6&amp;bg_color=000000&amp;title_color=00FF41&amp;text_color=C9D1D9&amp;border_color=0A4D1F&amp;locale=pt-br" alt="Linguagens mais presentes nos repositórios públicos de emanuelfelipehub" width="41%" />
+  <img src="./profile/stats.svg" alt="Estatísticas públicas de GitHub de emanuelfelipehub" width="460" />
+  <img src="./profile/top-langs.svg" alt="Linguagens mais presentes nos repositórios públicos de emanuelfelipehub" width="400" />
 </p>
 
 ## `> streak`
@@ -69,7 +69,7 @@ Desenvolvo projetos de sistemas e estou estudando Cybersecurity.
 ## `> trophies`
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=emanuelfelipehub&amp;theme=matrix&amp;no-frame=true&amp;no-bg=true&amp;margin-w=10&amp;margin-h=10" alt="Troféus do perfil GitHub de emanuelfelipehub no tema matrix" width="98%" />
+  <img src="./profile/trophies.svg" alt="Troféus do perfil GitHub de emanuelfelipehub no tema matrix" width="470" />
 </p>
 
 ## `> snake_contribution`
