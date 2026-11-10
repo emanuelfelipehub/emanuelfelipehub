@@ -1,99 +1,44 @@
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=220&amp;section=header&amp;color=0:000000,100:00FF41&amp;text=Emanuel%20Felipe%20Pereira&amp;fontColor=C9D1D9&amp;fontSize=38&amp;fontAlignY=36&amp;desc=Desenvolvimento%20de%20Sistemas&amp;descSize=19&amp;descAlignY=57&amp;animation=fadeIn" alt="Banner de Emanuel Felipe Pereira — Desenvolvimento de Sistemas, em preto e verde neon" width="100%" />
+  <img src="./profile/banner.svg" alt="Emanuel Felipe Pereira — desenvolvimento de software e aplicativos móveis" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=2500&amp;pause=900&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=50&amp;lines=%24+whoami;Emanuel+Felipe+Pereira;Desenvolvimento+de+Sistemas;HTML+%7C+CSS+%7C+Python+%7C+JavaScript;Estudando+Cybersecurity" alt="Animação de terminal com nome, área, tecnologias e estudo de Cybersecurity" />
+Olá! Sou Emanuel, estudante do técnico em Desenvolvimento de Sistemas no SENAI. Gosto de transformar ideias em aplicações e venho desenvolvendo projetos para web e dispositivos móveis.
+
+Na **WorldSkills**, fui aprovado na primeira etapa da seletiva escolar de Desenvolvimento de Aplicativos Móveis. Durante a preparação, trabalhei no Aprender+, com aplicativos Android em Flutter e interfaces no Figma.
+
+### O que estou explorando
+
+- **Mobile:** Flutter, Dart e recursos do Android.
+- **Web e sistemas:** Python, HTML, CSS, JavaScript e bancos de dados.
+- **Design e aprendizado:** Figma, experiência de uso e fundamentos de segurança cibernética.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,figma,python,html,css,js,git&amp;theme=dark" alt="Flutter, Dart, Figma, Python, HTML, CSS, JavaScript e Git" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-DESENVOLVIMENTO%20DE%20SISTEMAS-0A4D1F?style=for-the-badge&amp;labelColor=000000" alt="Status: Desenvolvimento de Sistemas" />
-  <img src="https://img.shields.io/badge/ESTUDANDO-CYBERSECURITY-0A4D1F?style=for-the-badge&amp;labelColor=000000" alt="Estudando Cybersecurity" />
-  <img src="https://komarev.com/ghpvc/?username=emanuelfelipehub&amp;label=VISITAS&amp;color=0A4D1F&amp;style=for-the-badge" alt="Contador de visitas ao perfil emanuelfelipehub" />
-</p>
+### Projetos em destaque
 
-## `> sobre_mim`
+**[Gestão de Frota e Manutenção](https://github.com/emanuelfelipehub/sistema-gestao-frota)**<br>
+Sistema web em Python e Django para acompanhar veículos, manutenções e estoque de peças.
 
-```text
-$ cat perfil.txt
-nome      : Emanuel Felipe Pereira
-foco      : Desenvolvimento de Sistemas
-stack     : HTML | CSS | Python | JavaScript
-estudando : Cybersecurity
-```
+**[Sistema de Gestão Empresarial](https://github.com/emanuelfelipehub/sistema_empresa_web)**<br>
+Aplicação em Flask para gerenciar cadastros e relacionamentos de uma empresa.
 
-Desenvolvo projetos de sistemas e estou estudando Cybersecurity.
+**[Agro Mec](https://github.com/emanuelfelipehub/Agro_Mec)**<br>
+Projeto disponível no meu portfólio de desenvolvimento web.
 
-## `> tecnologias`
+Os projetos de treino **Aprender+** também estão no meu GitHub e, por enquanto, são privados.
+
+### Minha atividade no GitHub
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,python,js&amp;theme=dark" alt="Tecnologias: HTML, CSS, Python e JavaScript" />
+  <img src="./profile/stats.svg" alt="Estatísticas públicas de Emanuel no GitHub" width="49%" />
+  <img src="./profile/top-langs.svg" alt="Linguagens presentes nos repositórios públicos de Emanuel" width="43%" />
 </p>
 
-## `> projetos`
+### Vamos nos conectar
 
-<p align="center">
-  <a href="https://github.com/emanuelfelipehub/Agro_Mec">
-    <img src="./profile/Agro_Mec.svg" alt="Card do repositório Agro_Mec com nome e descrição obtidos do GitHub" width="420" />
-  </a>
-  <a href="https://github.com/emanuelfelipehub/sistema-gestao-frota">
-    <img src="./profile/sistema-gestao-frota.svg" alt="Card do repositório sistema-gestao-frota com nome e descrição obtidos do GitHub" width="420" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/emanuelfelipehub/sistema_empresa_web">
-    <img src="./profile/sistema_empresa_web.svg" alt="Card do repositório sistema_empresa_web com nome e descrição obtidos do GitHub" width="420" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Emanuel%20Felipe%20Pereira-0969da?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuel-felipe-pereira/)
+[![Instagram](https://img.shields.io/badge/Instagram-emanuel__gdz7-8b4cac?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/emanuel_gdz7)
 
-## `> github_stats`
-
-<p align="center">
-  <img src="./profile/stats.svg" alt="Estatísticas públicas de GitHub de emanuelfelipehub" width="460" />
-  <img src="./profile/top-langs.svg" alt="Linguagens mais presentes nos repositórios públicos de emanuelfelipehub" width="400" />
-</p>
-
-## `> streak`
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=emanuelfelipehub&amp;theme=dark&amp;background=000000&amp;ring=00FF41&amp;fire=00FF41&amp;currStreakNum=C9D1D9&amp;sideNums=C9D1D9&amp;currStreakLabel=00FF41&amp;sideLabels=C9D1D9&amp;dates=C9D1D9&amp;border=0A4D1F&amp;locale=pt_BR" alt="Sequência de contribuições no GitHub de emanuelfelipehub" width="90%" />
-</p>
-
-## `> activity_graph`
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emanuelfelipehub&amp;bg_color=000000&amp;color=C9D1D9&amp;line=00FF41&amp;point=00FF41&amp;area=true&amp;area_color=0A4D1F&amp;hide_border=false&amp;custom_title=Atividade%20no%20GitHub" alt="Gráfico de atividade de contribuições no GitHub de emanuelfelipehub" width="98%" />
-</p>
-
-## `> trophies`
-
-<p align="center">
-  <img src="./profile/trophies.svg" alt="Troféus do perfil GitHub de emanuelfelipehub no tema matrix" width="470" />
-</p>
-
-## `> snake_contribution`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emanuelfelipehub/emanuelfelipehub/output/github-snake-dark.svg" alt="Animação da cobra verde neon percorrendo o calendário de contribuições de emanuelfelipehub" width="98%" />
-</p>
-
-## `> redes_sociais`
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/emanuel-felipe-pereira">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&amp;logo=linkedin&amp;logoColor=00FF41" alt="LinkedIn de Emanuel Felipe Pereira" />
-  </a>
-  <a href="https://instagram.com/emanuel_gdz7">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&amp;logo=instagram&amp;logoColor=00FF41" alt="Instagram @emanuel_gdz7" />
-  </a>
-  <a href="https://github.com/emanuelfelipehub">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&amp;logo=github&amp;logoColor=00FF41" alt="GitHub emanuelfelipehub" />
-  </a>
-</p>
-
-<p align="center"><code>$ echo "obrigado pela visita"</code></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=100&amp;section=footer&amp;color=0:000000,100:00FF41" alt="Rodapé em onda com degradê do preto ao verde neon" width="100%" />
-</p>
+Obrigado pela visita!
