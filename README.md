@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/banner.svg" alt="Emanuel Felipe Pereira — desenvolvimento de software e aplicativos móveis" width="100%" />
+  <img src="./profile/banner-worldskills-azul.svg" alt="Emanuel Felipe Pereira — desenvolvimento de software e aplicativos móveis" width="100%" />
 </p>
 
 <p align="center">
