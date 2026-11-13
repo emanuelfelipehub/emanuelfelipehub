@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 350" width="270" height="350" role="img" aria-label="Projeto empresa_web: Gestão empresarial: clientes, fornecedores e funcionários."><defs>
+  <radialGradient id="bgg" cx="50%" cy="35%" r="80%">
+    <stop offset="0" stop-color="#005c25"/>
+    <stop offset=".5" stop-color="#002a11"/>
+    <stop offset="1" stop-color="#000f06"/>
+  </radialGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M22 0H0V22" fill="none" stroke="#00ff41" stroke-opacity=".08"/>
+  </pattern>
+  <pattern id="lines" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#000" fill-opacity=".22"/>
+  </pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00ff41" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowS" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="1.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="round"><rect width="270" height="350" rx="14"/></clipPath>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity=".55"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff41" stop-opacity=".05"/><stop offset="1" stop-color="#00ff41" stop-opacity=".5"/>
+  </linearGradient><clipPath id="iconclip"><rect x="14" y="14" width="242" height="140" rx="10"/></clipPath></defs><style>
+  text { font-family: 'Courier New', Courier, monospace; }
+  .b { font-family: Consolas, 'SF Mono', Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; font-weight: 700; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .scanbar { animation: scan 7s linear infinite; }
+  @keyframes scan { from { transform: translateY(-120px); } to { transform: translateY(350px); } }
+  .run { animation: run 6s linear infinite; }
+  @keyframes run { to { stroke-dashoffset: -1240; } }
+  .spin { transform-box: fill-box; transform-origin: center; animation: spin 8s linear infinite; }
+  .spinr { transform-box: fill-box; transform-origin: center; animation: spin 5s linear infinite reverse; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .show { opacity: 0; animation: appear .2s ease-out forwards; }
+  @keyframes appear { to { opacity: 1; } }
+  .hover { animation: hover 3s ease-in-out infinite; }
+  @keyframes hover { 50% { transform: translateY(-6px); } }
+  .rotor { transform-box: fill-box; transform-origin: center; animation: rotor .18s linear infinite; }
+  @keyframes rotor { 50% { transform: scaleX(.15); } }
+  .beamp { animation: beam 1.6s ease-in-out infinite; }
+  @keyframes beam { 50% { opacity: .35; } }
+  .road { animation: road .6s linear infinite; }
+  @keyframes road { to { stroke-dashoffset: 24; } }
+  .bounce { animation: bounce .5s ease-in-out infinite; }
+  @keyframes bounce { 50% { transform: translateY(-2px); } }
+  .speed { animation: speed .5s steps(2) infinite; }
+  @keyframes speed { 50% { opacity: .3; transform: translateX(-6px); } }
+  .rise { opacity: 0; animation: rise 2.8s ease-out infinite; }
+  @keyframes rise { 0% { opacity: 0; transform: translateY(0); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(-34px); } }
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+  @keyframes pulse { from { transform: scale(.8); opacity: .9; } to { transform: scale(1.6); opacity: 0; } }
+  .shackle { animation: lock 3s ease-in-out infinite; }
+  @keyframes lock { 0%,60%,100% { transform: translateY(0); } 75% { transform: translateY(-5px); } }
+  .pop { opacity: 0; animation: pop 3.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pop { 0% { opacity: 0; transform: scale(.3); } 15%,85% { opacity: 1; transform: scale(1); } 100% { opacity: 0; } }
+  .wave { animation: wave 1.8s ease-out infinite; }
+  @keyframes wave { 0% { opacity: 0; } 30% { opacity: 1; } 100% { opacity: 0; } }
+  .flipc { transform-box: fill-box; transform-origin: center; animation: flipc 3s ease-in-out infinite; }
+  @keyframes flipc { 0%,40%,100% { transform: scaleX(1); } 55% { transform: scaleX(0); } 70% { transform: scaleX(1); } }
+  .ants { animation: ants 1s linear infinite; }
+  @keyframes ants { to { stroke-dashoffset: -20; } }
+  .pen { animation: pen 4s ease-in-out infinite; }
+  @keyframes pen { 0%,100% { transform: translate(0,0); } 25% { transform: translate(-40px,-30px); } 50% { transform: translate(-30px,26px); } 75% { transform: translate(10px,-40px); } }
+  .hop { animation: hop 6s steps(1) infinite; }
+  @keyframes hop { 0% { transform: translate(0,0); } 16% { transform: translate(22px,0); } 33% { transform: translate(66px,0); } 50% { transform: translate(22px,18px); } 66% { transform: translate(44px,36px); } 83% { transform: translate(0,36px); } }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq .9s ease-in-out infinite alternate; }
+  @keyframes eq { from { transform: scaleY(.2); } to { transform: scaleY(1); } }
+  .wrench { animation: wrench 1.6s ease-in-out infinite; }
+  @keyframes wrench { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-25deg); } }
+  .win { animation-name: win; animation-iteration-count: infinite; animation-timing-function: steps(1); }
+  @keyframes win { 0% { opacity: .9; } 50% { opacity: .15; } }</style>
+<g clip-path="url(#round)">
+  <rect width="270" height="350" fill="url(#bgg)"/><rect width="270" height="350" fill="url(#grid)"/>
+  <rect x="14" y="14" width="242" height="140" rx="10" fill="#000f06" fill-opacity=".6" stroke="#00ff41" stroke-opacity=".3"/>
+  <g clip-path="url(#iconclip)">
+  <line x1="35" y1="136" x2="235" y2="136" stroke="#00c832" stroke-width="2"/>
+  <rect x="177" y="84" width="40" height="52" fill="#001a0c" stroke="#00c832" stroke-width="2"/>
+  <rect x="49" y="96" width="36" height="40" fill="#001a0c" stroke="#00c832" stroke-width="2"/>
+  <rect x="95" y="38" width="80" height="98" fill="#001a0c" stroke="#00ff41" stroke-width="2.5" filter="url(#glowS)"/>
+  <path d="M135 38 V20" stroke="#00ff41" stroke-width="2"/>
+  <circle class="blink" cx="135" cy="18" r="3.5" fill="#00ff41" filter="url(#glowS)"/>
+  <rect class="win" style="animation-delay:-2.52s;animation-duration:3.47s" x="105" y="48" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.81s;animation-duration:3.82s" x="121" y="48" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.76s;animation-duration:4.17s" x="137" y="48" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.14s;animation-duration:4.93s" x="153" y="48" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.98s;animation-duration:3.84s" x="105" y="64" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-1.05s;animation-duration:4.84s" x="121" y="64" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-1.33s;animation-duration:4.66s" x="137" y="64" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.13s;animation-duration:4.46s" x="153" y="64" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.96s;animation-duration:3.61s" x="105" y="80" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.67s;animation-duration:4.53s" x="121" y="80" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.54s;animation-duration:2.85s" x="137" y="80" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.40s;animation-duration:3.67s" x="153" y="80" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.69s;animation-duration:3.51s" x="105" y="96" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.21s;animation-duration:3.75s" x="121" y="96" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.63s;animation-duration:3.56s" x="137" y="96" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-1.55s;animation-duration:2.64s" x="153" y="96" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.64s;animation-duration:4.14s" x="105" y="112" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-1.29s;animation-duration:3.79s" x="121" y="112" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-3.19s;animation-duration:3.14s" x="137" y="112" width="10" height="10" fill="#00ff41"/><rect class="win" style="animation-delay:-0.78s;animation-duration:2.60s" x="153" y="112" width="10" height="10" fill="#00ff41"/>
+  <rect x="127" y="122" width="16" height="14" fill="#00ff41" fill-opacity=".4"/></g>
+  <text x="22" y="32" font-size="11" fill="#3ddc6a">03</text>
+  <text x="20" y="180" font-size="12" fill="#3ddc6a">~/projetos/</text>
+  <text class="b" x="20" y="205" font-size="20" fill="#00ff41" filter="url(#glowS)">empresa_web</text>
+  <rect class="blink" x="158" y="190" width="9" height="18" fill="#00ff41"/>
+  <text x="20" y="232" font-size="14" fill="#c4ffd3">Gestão empresarial:</text><text x="20" y="252" font-size="14" fill="#c4ffd3">clientes, fornecedores</text><text x="20" y="272" font-size="14" fill="#c4ffd3">e funcionários.</text>
+  <rect x="20.0" y="292" width="47.0" height="22" rx="11" fill="#00ff41" fill-opacity=".12" stroke="#00ff41" stroke-opacity=".7"/><text x="43.5" y="307" font-size="11" fill="#00ff41" text-anchor="middle">Flask</text><rect x="73.0" y="292" width="80.0" height="22" rx="11" fill="#00ff41" fill-opacity=".12" stroke="#00ff41" stroke-opacity=".7"/><text x="113.0" y="307" font-size="11" fill="#00ff41" text-anchor="middle">SQLAlchemy</text><rect x="159.0" y="292" width="47.0" height="22" rx="11" fill="#00ff41" fill-opacity=".12" stroke="#00ff41" stroke-opacity=".7"/><text x="182.5" y="307" font-size="11" fill="#00ff41" text-anchor="middle">MySQL</text>
+  <text x="20" y="334" font-size="12" fill="#3ddc6a">&gt; abrir repositório_</text>
+  <rect class="scanbar" width="270" height="120" fill="url(#scan)"/><rect width="270" height="350" fill="url(#lines)"/>
+</g>
+<rect x="1" y="1" width="268" height="348" rx="13" fill="none" stroke="#00ff41" stroke-opacity=".45" stroke-width="2"/><rect class="run" x="1" y="1" width="268" height="348" rx="13" fill="none" stroke="#00ff41" stroke-width="3" stroke-dasharray="140 1100" filter="url(#glowS)"/>
+</svg>

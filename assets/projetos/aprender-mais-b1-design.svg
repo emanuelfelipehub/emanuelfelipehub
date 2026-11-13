@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 210" width="410" height="210" role="img" aria-label="WorldSkills Aprender+ B1: Design de interface. App educacional: login, cursos, cadastro e perfil."><defs>
+  <radialGradient id="bgg" cx="50%" cy="35%" r="80%">
+    <stop offset="0" stop-color="#005c25"/>
+    <stop offset=".5" stop-color="#002a11"/>
+    <stop offset="1" stop-color="#000f06"/>
+  </radialGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M22 0H0V22" fill="none" stroke="#00ff41" stroke-opacity=".08"/>
+  </pattern>
+  <pattern id="lines" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#000" fill-opacity=".22"/>
+  </pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00ff41" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowS" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="1.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="round"><rect width="410" height="210" rx="14"/></clipPath>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity=".55"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff41" stop-opacity=".05"/><stop offset="1" stop-color="#00ff41" stop-opacity=".5"/>
+  </linearGradient><clipPath id="iconclip"><rect x="14" y="14" width="148" height="182" rx="10"/></clipPath></defs><style>
+  text { font-family: 'Courier New', Courier, monospace; }
+  .b { font-family: Consolas, 'SF Mono', Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; font-weight: 700; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .scanbar { animation: scan 7s linear infinite; }
+  @keyframes scan { from { transform: translateY(-120px); } to { transform: translateY(210px); } }
+  .run { animation: run 6s linear infinite; }
+  @keyframes run { to { stroke-dashoffset: -1240; } }
+  .spin { transform-box: fill-box; transform-origin: center; animation: spin 8s linear infinite; }
+  .spinr { transform-box: fill-box; transform-origin: center; animation: spin 5s linear infinite reverse; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .show { opacity: 0; animation: appear .2s ease-out forwards; }
+  @keyframes appear { to { opacity: 1; } }
+  .hover { animation: hover 3s ease-in-out infinite; }
+  @keyframes hover { 50% { transform: translateY(-6px); } }
+  .rotor { transform-box: fill-box; transform-origin: center; animation: rotor .18s linear infinite; }
+  @keyframes rotor { 50% { transform: scaleX(.15); } }
+  .beamp { animation: beam 1.6s ease-in-out infinite; }
+  @keyframes beam { 50% { opacity: .35; } }
+  .road { animation: road .6s linear infinite; }
+  @keyframes road { to { stroke-dashoffset: 24; } }
+  .bounce { animation: bounce .5s ease-in-out infinite; }
+  @keyframes bounce { 50% { transform: translateY(-2px); } }
+  .speed { animation: speed .5s steps(2) infinite; }
+  @keyframes speed { 50% { opacity: .3; transform: translateX(-6px); } }
+  .rise { opacity: 0; animation: rise 2.8s ease-out infinite; }
+  @keyframes rise { 0% { opacity: 0; transform: translateY(0); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(-34px); } }
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+  @keyframes pulse { from { transform: scale(.8); opacity: .9; } to { transform: scale(1.6); opacity: 0; } }
+  .shackle { animation: lock 3s ease-in-out infinite; }
+  @keyframes lock { 0%,60%,100% { transform: translateY(0); } 75% { transform: translateY(-5px); } }
+  .pop { opacity: 0; animation: pop 3.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pop { 0% { opacity: 0; transform: scale(.3); } 15%,85% { opacity: 1; transform: scale(1); } 100% { opacity: 0; } }
+  .wave { animation: wave 1.8s ease-out infinite; }
+  @keyframes wave { 0% { opacity: 0; } 30% { opacity: 1; } 100% { opacity: 0; } }
+  .flipc { transform-box: fill-box; transform-origin: center; animation: flipc 3s ease-in-out infinite; }
+  @keyframes flipc { 0%,40%,100% { transform: scaleX(1); } 55% { transform: scaleX(0); } 70% { transform: scaleX(1); } }
+  .ants { animation: ants 1s linear infinite; }
+  @keyframes ants { to { stroke-dashoffset: -20; } }
+  .pen { animation: pen 4s ease-in-out infinite; }
+  @keyframes pen { 0%,100% { transform: translate(0,0); } 25% { transform: translate(-40px,-30px); } 50% { transform: translate(-30px,26px); } 75% { transform: translate(10px,-40px); } }
+  .hop { animation: hop 6s steps(1) infinite; }
+  @keyframes hop { 0% { transform: translate(0,0); } 16% { transform: translate(22px,0); } 33% { transform: translate(66px,0); } 50% { transform: translate(22px,18px); } 66% { transform: translate(44px,36px); } 83% { transform: translate(0,36px); } }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq .9s ease-in-out infinite alternate; }
+  @keyframes eq { from { transform: scaleY(.2); } to { transform: scaleY(1); } }
+  .wrench { animation: wrench 1.6s ease-in-out infinite; }
+  @keyframes wrench { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-25deg); } }
+  .win { animation-name: win; animation-iteration-count: infinite; animation-timing-function: steps(1); }
+  @keyframes win { 0% { opacity: .9; } 50% { opacity: .15; } }</style>
+<g clip-path="url(#round)">
+  <rect width="410" height="210" fill="url(#bgg)"/><rect width="410" height="210" fill="url(#grid)"/>
+  <rect x="14" y="14" width="148" height="182" rx="10" fill="#000f06" fill-opacity=".6" stroke="#00ff41" stroke-opacity=".3"/>
+  <g clip-path="url(#iconclip)">
+  <rect x="54" y="55" width="68" height="100" rx="8" fill="#001a0c" stroke="#00ff41" stroke-width="2" stroke-dasharray="6 4" class="ants"/>
+  <rect x="64" y="67" width="48" height="20" rx="3" fill="#00ff41" fill-opacity=".35"/>
+  <rect x="64" y="93" width="30" height="5" rx="2" fill="#00c832"/>
+  <rect x="64" y="103" width="44" height="5" rx="2" fill="#0a7a2a"/>
+  <rect x="64" y="113" width="38" height="5" rx="2" fill="#0a7a2a"/>
+  <rect class="pop" x="64" y="129" width="48" height="14" rx="7" fill="#00ff41"/>
+  <rect x="51" y="52" width="6" height="6" fill="#001a0c" stroke="#00ff41" stroke-width="1.5"/><rect x="119" y="52" width="6" height="6" fill="#001a0c" stroke="#00ff41" stroke-width="1.5"/><rect x="51" y="152" width="6" height="6" fill="#001a0c" stroke="#00ff41" stroke-width="1.5"/><rect x="119" y="152" width="6" height="6" fill="#001a0c" stroke="#00ff41" stroke-width="1.5"/>
+  <g class="pen">
+    <path d="M0 0 L0 22 L6 16 L11 26 L15 24 L10 14 L18 14 Z" fill="#00ff41" stroke="#001a0c" stroke-width="1.5" transform="translate(106 101)"/>
+  </g></g>
+  <text x="178" y="38" font-size="12" fill="#3ddc6a">[ worldskills · B1 ]</text>
+  <g class="" transform="translate(380 30) scale(0.55)">
+    <path d="M-14 -16 H14 V-4 Q14 12 0 14 Q-14 12 -14 -4 Z" fill="#00ff41" fill-opacity=".25" stroke="#00ff41" stroke-width="2.5"/>
+    <path d="M-14 -11 H-21 Q-22 2 -12 4 M14 -11 H21 Q22 2 12 4" fill="none" stroke="#00ff41" stroke-width="2.5"/>
+    <path d="M0 14 V21 M-9 25 H9 V21 H-9 Z" fill="#00ff41" stroke="#00ff41" stroke-width="2"/>
+    <text x="0" y="3" font-size="13" font-weight="700" fill="#00ff41" text-anchor="middle">1</text>
+  </g>
+  <text class="b" x="178" y="68" font-size="22" fill="#00ff41" filter="url(#glowS)">Aprender+ B1</text>
+  <text x="178" y="92" font-size="14" fill="#00ff41">Design de interface</text>
+  <text x="178" y="120" font-size="13" fill="#c4ffd3">App educacional: login,</text><text x="178" y="139" font-size="13" fill="#c4ffd3">cursos, cadastro e perfil.</text>
+  <rect x="178.0" y="158" width="47.0" height="22" rx="11" fill="#00ff41" fill-opacity=".12" stroke="#00ff41" stroke-opacity=".7"/><text x="201.5" y="173" font-size="11" fill="#00ff41" text-anchor="middle">Figma</text><rect x="231.0" y="158" width="47.0" height="22" rx="11" fill="#00ff41" fill-opacity=".12" stroke="#00ff41" stroke-opacity=".7"/><text x="254.5" y="173" font-size="11" fill="#00ff41" text-anchor="middle">UI/UX</text>
+  <text x="178" y="196" font-size="11" fill="#3ddc6a">&gt; abrir repositório_</text>
+  <rect class="scanbar" width="410" height="120" fill="url(#scan)"/><rect width="410" height="210" fill="url(#lines)"/>
+</g>
+<rect x="1" y="1" width="408" height="208" rx="13" fill="none" stroke="#00ff41" stroke-opacity=".45" stroke-width="2"/><rect class="run" x="1" y="1" width="408" height="208" rx="13" fill="none" stroke="#00ff41" stroke-width="3" stroke-dasharray="140 1100" filter="url(#glowS)"/>
+</svg>

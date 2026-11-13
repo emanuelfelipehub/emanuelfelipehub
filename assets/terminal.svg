@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 536" width="620" height="536" role="img" aria-label="Terminal: Emanuel Felipe · 17 anos Itumbiara - GO, Brasil Técnico em Desenvolvimento de Sistemas Engenharia de Software (cursando) [1º] Seletiva escolar WorldSkills     Desenvolvimento de Apps Móveis [&gt;] Aberto a oportunidades de emprego python  php  html  css  dart  flutter java  mysql  sql"><defs>
+  <radialGradient id="bgg" cx="50%" cy="35%" r="80%">
+    <stop offset="0" stop-color="#005c25"/>
+    <stop offset=".5" stop-color="#002a11"/>
+    <stop offset="1" stop-color="#000f06"/>
+  </radialGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M22 0H0V22" fill="none" stroke="#00ff41" stroke-opacity=".08"/>
+  </pattern>
+  <pattern id="lines" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#000" fill-opacity=".22"/>
+  </pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00ff41" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowS" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="1.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="round"><rect width="620" height="536" rx="14"/></clipPath></defs><style>
+  text { font-family: 'Courier New', Courier, monospace; }
+  .b { font-family: Consolas, 'SF Mono', Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; font-weight: 700; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .scanbar { animation: scan 7s linear infinite; }
+  @keyframes scan { from { transform: translateY(-120px); } to { transform: translateY(536px); } }
+  .run { animation: run 6s linear infinite; }
+  @keyframes run { to { stroke-dashoffset: -2312; } }
+  .spin { transform-box: fill-box; transform-origin: center; animation: spin 8s linear infinite; }
+  .spinr { transform-box: fill-box; transform-origin: center; animation: spin 5s linear infinite reverse; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .show { opacity: 0; animation: appear .2s ease-out forwards; }
+  @keyframes appear { to { opacity: 1; } }@keyframes k0 { to { transform: translateX(75.6px); } }@keyframes k3 { to { transform: translateX(183.6px); } }@keyframes k6 { to { transform: translateX(205.2px); } }@keyframes k9 { to { transform: translateX(162.0px); } }@keyframes k11 { to { transform: translateX(118.8px); } }.cur { opacity: 0; } @keyframes on { from { opacity: 1; } to { opacity: 1; } }</style>
+<g clip-path="url(#round)">
+  <rect width="620" height="536" fill="#001a0c"/>
+  <rect width="620" height="40" fill="#003a17"/>
+  <line x1="0" y1="40" x2="620" y2="40" stroke="#00ff41" stroke-opacity=".5"/>
+  <circle cx="22" cy="20" r="6" fill="#00ff41"/><circle cx="42" cy="20" r="6" fill="#00c832"/><circle cx="62" cy="20" r="6" fill="#0a7a2a"/>
+  <text x="310.0" y="25" font-size="14" fill="#3ddc6a" text-anchor="middle">emanuel@itumbiara: ~</text>
+  <text x="26" y="76" font-size="18" fill="#00ff41" font-weight="700">$</text><text x="47.6" y="76" font-size="18" fill="#eafff0" textLength="64.8" lengthAdjust="spacingAndGlyphs">whoami</text><rect style="animation:k0 0.33s steps(6) 0.60s forwards" x="46.6" y="58" width="79.6" height="26" fill="#001a0c"/><rect class="cur" style="animation:k0 0.33s steps(6) 0.60s forwards, on 0.58s linear 0.60s" x="47.6" y="61" width="10.8" height="20" fill="#00ff41"/><text class="show" xml:space="preserve" style="animation-delay:1.28s" x="47.6" y="106" font-size="18" fill="#c4ffd3">Emanuel Felipe · 17 anos</text><text class="show" xml:space="preserve" style="animation-delay:1.46s" x="47.6" y="136" font-size="18" fill="#c4ffd3">Itumbiara - GO, Brasil</text><text x="26" y="166" font-size="18" fill="#00ff41" font-weight="700">$</text><text x="47.6" y="166" font-size="18" fill="#eafff0" textLength="172.8" lengthAdjust="spacingAndGlyphs">cat formacao.txt</text><rect style="animation:k3 0.88s steps(16) 2.09s forwards" x="46.6" y="148" width="187.6" height="26" fill="#001a0c"/><rect class="cur" style="animation:k3 0.88s steps(16) 2.09s forwards, on 1.13s linear 2.09s" x="47.6" y="151" width="10.8" height="20" fill="#00ff41"/><text class="show" xml:space="preserve" style="animation-delay:3.32s" x="47.6" y="196" font-size="18" fill="#c4ffd3">Técnico em Desenvolvimento de Sistemas</text><text class="show" xml:space="preserve" style="animation-delay:3.50s" x="47.6" y="226" font-size="18" fill="#c4ffd3">Engenharia de Software (cursando)</text><text x="26" y="256" font-size="18" fill="#00ff41" font-weight="700">$</text><text x="47.6" y="256" font-size="18" fill="#eafff0" textLength="194.4" lengthAdjust="spacingAndGlyphs">cat conquistas.txt</text><rect style="animation:k6 0.99s steps(18) 4.13s forwards" x="46.6" y="238" width="209.2" height="26" fill="#001a0c"/><rect class="cur" style="animation:k6 0.99s steps(18) 4.13s forwards, on 1.24s linear 4.13s" x="47.6" y="241" width="10.8" height="20" fill="#00ff41"/><text class="show" xml:space="preserve" style="animation-delay:5.47s" x="47.6" y="286" font-size="18" fill="#00ff41">[1º] Seletiva escolar WorldSkills</text><text class="show" xml:space="preserve" style="animation-delay:5.65s" x="47.6" y="316" font-size="18" fill="#c4ffd3">    Desenvolvimento de Apps Móveis</text><text x="26" y="346" font-size="18" fill="#00ff41" font-weight="700">$</text><text x="47.6" y="346" font-size="18" fill="#eafff0" textLength="151.2" lengthAdjust="spacingAndGlyphs">cat status.txt</text><rect style="animation:k9 0.77s steps(14) 6.28s forwards" x="46.6" y="328" width="166.0" height="26" fill="#001a0c"/><rect class="cur" style="animation:k9 0.77s steps(14) 6.28s forwards, on 1.02s linear 6.28s" x="47.6" y="331" width="10.8" height="20" fill="#00ff41"/><text class="show" xml:space="preserve" style="animation-delay:7.40s" x="47.6" y="376" font-size="18" fill="#00ff41">[&gt;] Aberto a oportunidades de emprego</text><text x="26" y="406" font-size="18" fill="#00ff41" font-weight="700">$</text><text x="47.6" y="406" font-size="18" fill="#eafff0" textLength="108.0" lengthAdjust="spacingAndGlyphs">ls ~/stack</text><rect style="animation:k11 0.55s steps(10) 8.03s forwards" x="46.6" y="388" width="122.8" height="26" fill="#001a0c"/><rect class="cur" style="animation:k11 0.55s steps(10) 8.03s forwards, on 0.80s linear 8.03s" x="47.6" y="391" width="10.8" height="20" fill="#00ff41"/><text class="show" xml:space="preserve" style="animation-delay:8.93s" x="47.6" y="436" font-size="18" fill="#c4ffd3">python  php  html  css  dart  flutter</text><text class="show" xml:space="preserve" style="animation-delay:9.11s" x="47.6" y="466" font-size="18" fill="#c4ffd3">java  mysql  sql</text><text x="26" y="496" font-size="18" fill="#00ff41" font-weight="700">$</text><g class="show" style="animation-delay:9.74s"><rect class="blink" x="47.6" y="481" width="10.8" height="20" fill="#00ff41"/></g>
+  <rect y="40" width="620" height="536" fill="url(#grid)"/>
+  <rect class="scanbar" width="620" height="120" fill="url(#scan)"/><rect width="620" height="536" fill="url(#lines)"/>
+</g>
+<rect x="1" y="1" width="618" height="534" rx="13" fill="none" stroke="#00ff41" stroke-opacity=".45" stroke-width="2"/><rect class="run" x="1" y="1" width="618" height="534" rx="13" fill="none" stroke="#00ff41" stroke-width="3" stroke-dasharray="140 2172" filter="url(#glowS)"/>
+</svg>
